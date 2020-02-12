@@ -1,0 +1,14 @@
+{
+  "name": "plain_html",
+  "type": "htl",
+  "contentType": "html",
+  "cgi": false,
+  "entryFile": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/pages/master/src/plain_html.htl",
+  "main": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/plain_html.js",
+  "buildDir": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src",
+  "infoFile": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/plain_html.info.json",
+  "pre": "@adobe/helix-pipeline/src/defaults/html.pre.js",
+  "pipe": "@adobe/helix-pipeline/src/defaults/html.pipe.js",
+  "sourceMap": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/plain_html.script.js.map",
+  "scriptFile": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/plain_html.script.js"
+}

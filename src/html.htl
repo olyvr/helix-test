@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <title>${content.title}</title>
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+<body data-sly-use.lib="./templates/library.html">
+
+${content.document.body.innerHTML}
+
+<hr>
+<em>Helix generated this on:${content.data.time}</em>
+<br/>
+<em>This is random: ${content.data.random}</em>
+<br/>
+<em>This is dynamically generated: ${content.data.fromPreJS}</em>
+<br/>
+
+<h2>HTL-generated content</h2>
+<div>
+    <!--/* call the lib.button template and pass in the button text */-->
+    Click here to <span data-sly-call="${lib.button @ text='Win big pizza!'}"></span>
+</div>
+
+<!--/* example of how to use "use" classes */-->
+<h3 data-sly-use.unknown="${'./planet.js'}">${unknown.title}</h3>
+<h3 data-sly-use.jupiter="${'./planet.js' @ jcr:title='Jupiter', value1='Moon', value2='Europa', radius='70000'}">
+    ${jupiter.title}
+</h3>
+<p>${jupiter.subTitle}</p>
+<p>Surface Area: ${jupiter.area}</p>
+
+<hr>
+See our <sly data-sly-call="${lib.link @ text='documentation', href=content.data.homepage}"></sly>
+for more information.
+
+</body>
+</html>

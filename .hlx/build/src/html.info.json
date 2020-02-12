@@ -1,0 +1,14 @@
+{
+  "name": "html",
+  "type": "htl",
+  "contentType": "html",
+  "cgi": false,
+  "entryFile": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/src/html.htl",
+  "main": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/html.js",
+  "buildDir": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src",
+  "infoFile": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/html.info.json",
+  "pre": "../../../src/html.pre.js",
+  "pipe": "@adobe/helix-pipeline/src/defaults/html.pipe.js",
+  "sourceMap": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/html.script.js.map",
+  "scriptFile": "/Users/oliverhan/Desktop/Algolia/helix/helix-test/.hlx/build/src/html.script.js"
+}

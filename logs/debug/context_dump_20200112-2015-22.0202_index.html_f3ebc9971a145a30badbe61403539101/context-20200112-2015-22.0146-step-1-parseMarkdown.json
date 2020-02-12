@@ -1,0 +1,40 @@
+{
+  "request": {
+    "params": {},
+    "headers": {
+      "x-openwhisk-activation-id": "f3ebc9971a145a30badbe61403539101",
+      "x-request-id": "GgZmLcES7jRRffNVKjHcYoR7icUt4lQC",
+      "x-backend-name": "localhost--F_Petridish",
+      "x-cdn-request-id": "32cbe730-902c-c3d4-2a66-e26c0f4f0a50",
+      "x-strain": "default",
+      "x-old-url": "/",
+      "x-repo-root-path": "",
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "cache-control": "max-age=0",
+      "dnt": "1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+      "sec-fetch-user": "?1",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-mode": "navigate",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9"
+    },
+    "method": "get",
+    "path": "/index.html",
+    "extension": "html",
+    "selector": "",
+    "url": "/index.html",
+    "rootPath": "",
+    "queryString": "",
+    "pathInfo": "/index.html"
+  },
+  "content": {
+    "body": "# Helix: Basic Example\n\nIt works, your Helix website is up and running!\n\n## What's next?\n\nSee the [README](./README.md) of this repository for the next steps.\n",
+    "sources": [
+      "http://127.0.0.1:53333/raw/helix/github.com--olyvr--helix-test/master/index.md"
+    ]
+  }
+}
